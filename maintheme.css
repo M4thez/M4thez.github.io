@@ -1,0 +1,9 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(6, 4, 37);
+    color: rgb(255,255,255);
+}
+.centered {
+    text-align: center;
+    margin: 2em;
+}
