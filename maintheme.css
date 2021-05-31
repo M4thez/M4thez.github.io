@@ -1,9 +1,16 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background: rgb(6, 4, 37);
+    background: rgb(63, 18, 18);
     color: rgb(255,255,255);
 }
 .centered {
     text-align: center;
     margin: 2em;
+}
+.imgterrain {
+    margin: 20px;
+    transition: transform 2s;
+}
+.imgterrain:hover {
+    transform: scale(1.05);
 }
