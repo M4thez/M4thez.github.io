@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
     <link rel="stylesheet" href="maintheme.css">
 </head>
+
 <body>
-    <div class="centered">
-        <h1>Mateusz Boboryko</h1>
-        <p>Portfolio Website</p>
-    </div>
-    <div class="centered">
-        <a href="https://github.com/M4thez">
-            <img class="imgterrain" src="Resources/imgterrain.png" alt="My GitHub profile">
-        </a>
-    </div>
+    <section class="entry">
+        <div class="entry-name">
+            <h1>Mateusz Boboryko</h1>
+            <p>Portfolio Website</p>
+        </div>
+        <a href="https://github.com/M4thez" target="_blank"><img class="entry-image" src="./Resources/imgterrain.png" alt="Mountains in a circle - my github profile image"/></a>
+    </section>
+
+    <section>
+        <h2 class="centered">Projects</h2>
+        <article class="projects-box">
+            <div class="project-item">
+                <h3>Sunnyside landing page</h3>
+                <p>Responsive landing page project exercise</p>
+                <a href="https://m4thez.github.io/sunnyside-landing-page/" target="_blank">Live Site</a>
+            </div>            
+            <div class="project-item">
+                <h3>JS Tabs</h3>
+                <p>Simple single page application with JS exercises</p>
+                <a href="https://m4thez.github.io/js-tabs/" target="_blank">Live Site</a>
+            </div>
+        </article>
+    </section>
+
+
 </body>
+
 </html>

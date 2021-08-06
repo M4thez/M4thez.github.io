@@ -1,16 +1,57 @@
-body {
+html {
     font-family: 'Ubuntu', sans-serif;
-    background: rgb(63, 18, 18);
+    font-size: 18px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
     color: rgb(255,255,255);
 }
+
+.entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entry-name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 2.5rem;
+    font-size: 38px;
+}
+.entry-image {
+    scale: 0.7;
+}
+
+.entry-image:hover {
+    opacity: 80%;
+    transition: opacity .8s ease;
+}
+
 .centered {
     text-align: center;
-    margin: 2rem;
+    padding: 2.5rem;
 }
-.imgterrain {
-    margin: 20px;
-    transition: transform 2s;
+
+.projects-box {
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
 }
-.imgterrain:hover {
-    transform: scale(1.05);
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    background-color: white;
+    color: black;
+    border-radius: .3rem;
+    padding: 1.5rem 1rem;
+    flex-basis: 25%;
 }
