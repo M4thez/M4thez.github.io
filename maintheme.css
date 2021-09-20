@@ -17,14 +17,14 @@ body {
     text-align: center;
 }
 .entry-name {
-    width: 100vw;
+    max-width: 90vw;
     padding: 12px;
 }
 .entry-links {
     display: flex;
     justify-content: center;
     column-gap: 2em;
-    padding: 1em;
+    padding: .5em;
 }
 .fab {
     color: white;
@@ -38,7 +38,7 @@ a .fab:hover {
 .h-center {
     text-align: center;
     padding-top: 4rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     font-size: 2rem;
 }
 
@@ -83,10 +83,18 @@ a .fab:hover {
 }
 
 @media screen and (min-width: 700px) {
+    .entry-name {
+        max-width: 70vw;
+        padding: 12px;
+    }
+
     .projects-box {
         flex-direction: row;
         justify-content: center;
         column-gap: 2em;
     
+    }
+    .project-item {
+        flex-basis: 40%;
     }
 }
