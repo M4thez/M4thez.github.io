@@ -1,0 +1,64 @@
+html {
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+/* RESET */
+/* ---------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  color: lightgray;
+  margin: 0;
+}
+
+/* ENTRY */
+/* ------------------- */
+#entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.entry__nav {
+  background-color: blueviolet;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+
+    a {
+      text-decoration: none;
+      padding-inline: 1rem;
+
+    }
+  }
+}
+
+.entry__welcome {
+  text-align: justify;
+}
+
+/* PROJECTS */
+/* ------------------- */
+#projects {
+  h2 {
+    text-align: center;
+    padding: 1rem;
+  }
+}
