@@ -1,7 +1,15 @@
+/* OVERALL */
+/* ---------------- */
 html {
   background-color: black;
   font-family: "Segoe UI", sans-serif;
   scroll-behavior: smooth;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
 }
 
 /* RESET */
@@ -14,7 +22,18 @@ html {
 
 * {
   color: lightgray;
+  padding: 0;
   margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  text-decoration: none;
 }
 
 /* ENTRY */
@@ -34,16 +53,7 @@ html {
   width: 100%;
   padding: 1rem;
 }
-.entry__nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.entry__nav li {
-  display: inline;
-}
-.entry__nav li a {
-  text-decoration: none;
+.entry__nav ul li a {
   padding-inline: 1rem;
 }
 
@@ -56,6 +66,12 @@ html {
 #projects h2 {
   text-align: center;
   padding: 1rem;
+}
+#projects #projects__cards {
+  margin: 3rem 4rem;
+}
+#projects #projects__cards a {
+  color: aqua;
 }
 
 /*# sourceMappingURL=style.css.map */
