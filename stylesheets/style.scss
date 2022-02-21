@@ -1,6 +1,7 @@
 /* OVERALL */
 /* ---------------- */
 html {
+  color: white;
   background-color: black;
   font-family: "Segoe UI", sans-serif;
   scroll-behavior: smooth;
@@ -12,6 +13,14 @@ html {
   gap: 3rem;
 }
 
+img {
+  max-width: 100%;
+}
+
+a {
+  color: white;
+}
+
 /* RESET */
 /* ---------------- */
 *,
@@ -21,7 +30,6 @@ html {
 }
 
 * {
-  color: lightgray;
   padding: 0;
   margin: 0;
 }
@@ -77,8 +85,16 @@ ul {
     margin: 3rem 4rem;
 
     a {
-      color: aqua;
+      color: blue;
     }
 
+    img {
+      background-color: white;
+    }
+  }
+
+  .projects__just-card {
+    background-color: lightgray;
+    color: black;
   }
 }

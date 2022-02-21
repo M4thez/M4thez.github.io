@@ -1,6 +1,7 @@
 /* OVERALL */
 /* ---------------- */
 html {
+  color: white;
   background-color: black;
   font-family: "Segoe UI", sans-serif;
   scroll-behavior: smooth;
@@ -12,6 +13,14 @@ html {
   gap: 3rem;
 }
 
+img {
+  max-width: 100%;
+}
+
+a {
+  color: white;
+}
+
 /* RESET */
 /* ---------------- */
 *,
@@ -21,7 +30,6 @@ html {
 }
 
 * {
-  color: lightgray;
   padding: 0;
   margin: 0;
 }
@@ -71,7 +79,14 @@ ul li a {
   margin: 3rem 4rem;
 }
 #projects #projects__cards a {
-  color: aqua;
+  color: blue;
+}
+#projects #projects__cards img {
+  background-color: white;
+}
+#projects .projects__just-card {
+  background-color: lightgray;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
