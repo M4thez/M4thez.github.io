@@ -1,59 +1,59 @@
 const projects = [
   {
     "title": "Landing page project",
-    "description": "responsive landing page project for a sunnyside by frontendmentor.io",
+    "description": "Responsive landing page project for a fictional company based on a challenge by <a href='https://frontendmentor.io'>frontendmentor.io</a>. The site is responsive for all commonly used screen sizes and also includes custom hover states for interactive elements.",
     "image_path": "resources/sunnyside-logos/sunnyside_black.png",
     "links": [
       {
-        "repo": "https://github.com/M4thez",
-        "live": "https://google.com"
+        "repo": "https://github.com/M4thez/sunnyside-landing-page",
+        "live": "https://m4thez.github.io/sunnyside-landing-page"
       }
     ]
   },
   {
     "title": "Balldontlie",
-    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Debitis et culpa sequi suscipit similique laborum nisi quaerat voluptas earum deleniti exercitationem mollitia tempore dolore repellat magni corrupti quae, impedit animi at vel amet aperiam quisquam? Dolore rerum nulla architecto non!",
+    "description": "Single Page Application made in Vue 3. The app uses <a href='https://balldontlie.io'>balldontlie API</a> to get information about players and their stats. App is also fully dockerized with its' image available on Docker Hub.",
     "image_path": "resources/balldontlie-logos/balldontlie_black.png",
     "links": [
       {
-        "repo": "https://github.com/M4thez",
-        "live": "https://google.com"
+        "repo": "https://github.com/M4thez/balldontlie",
+        "live": "https://m4thez.github.io/balldontlie"
       }
     ]
 
   },
   {
     "title": "Nasa model viewer",
-    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Debitis et culpa sequi suscipit similique laborum nisi quaerat voluptas earum deleniti exercitationem mollitia tempore dolore repellat magni corrupti quae, impedit animi at vel amet aperiam quisquam? Dolore rerum nulla architecto non!",
+    "description": "Website with 3D models shared by official NASA repository. It's mostly a proof of concept on sharing 3D models on the web using my own solution. The viewer is made in Three.js (JavaScript library for working with 3D objects on the Web).",
     "image_path": "resources/nasa model viewer-logos/nasa_black.png",
     "links": [
       {
-        "repo": "https://github.com/M4thez",
-        "live": "https://google.com"
+        "repo": "https://github.com/M4thez/nasa-website",
+        "live": "https://m4thez.github.io/nasa-website"
       }
     ]
 
   },
   {
     "title": "Launch countdown timer",
-    "description": "blalblalbal",
+    "description": "Countdown timer site project based on a challenge by <a href='https://frontendmentor.io'>frontendmentor.io</a>. The project is displaying a fully animated live countdown timer that ticks down every second to a specific time. Desktop solution only.",
     "image_path": "resources/launch countdown-logos/launch_black.png",
     "links": [
       {
-        "repo": "https://github.com/M4thez",
-        "live": "https://google.com"
+        "repo": "https://github.com/M4thez/launch-countdown-timer",
+        "live": "https://m4thez.github.io/launch-countdown-timer"
       }
     ]
 
   },
   {
     "title": "JS Tabs",
-    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Debitis et culpa sequi suscipit similique",
+    "description": "Simple Single Page Application project made for a University exercise. It consists of some interactive challenges that gave me some training in basic JavaScript coding.",
     "image_path": "resources/js-tabs-logos/js-tabs_black.png",
     "links": [
       {
-        "repo": "https://github.com/M4thez",
-        "live": "https://google.com"
+        "repo": "https://github.com/M4thez/js-tabs",
+        "live": "https://m4thez.github.io/js-tabs"
       }
     ]
 
