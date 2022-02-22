@@ -1,4 +1,4 @@
-/* OVERALL */
+/* GLOBAL */
 /* ---------------- */
 html {
   color: white;
@@ -19,6 +19,11 @@ img {
 
 a {
   color: white;
+}
+
+h2 {
+  text-align: center;
+  padding: 1rem;
 }
 
 /* RESET */
@@ -71,22 +76,36 @@ ul li a {
 
 /* PROJECTS */
 /* ------------------- */
-#projects h2 {
-  text-align: center;
-  padding: 1rem;
-}
 #projects #projects__cards {
   margin: 3rem 4rem;
 }
-#projects #projects__cards a {
-  color: blue;
-}
-#projects #projects__cards img {
-  background-color: white;
-}
-#projects .projects__just-card {
+#projects #projects__cards .projects__just-card {
   background-color: lightgray;
   color: black;
+  border-radius: 0 0rem 1rem 1rem;
+}
+#projects #projects__cards .projects__just-card img {
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+#projects #projects__cards .projects__just-card img:hover {
+  background-color: blueviolet;
+}
+#projects #projects__cards .projects__just-card .projects__text {
+  padding: 1.4rem 1.4rem 3rem;
+}
+#projects #projects__cards .projects__just-card .projects__text h3 {
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+#projects #projects__cards .projects__just-card .projects__text p {
+  margin-bottom: 0.8rem;
+}
+#projects #projects__cards .projects__just-card .projects__text a {
+  color: purple;
+}
+#projects #projects__cards .projects__just-card .projects__text .projects__text--links {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

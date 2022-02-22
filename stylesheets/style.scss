@@ -1,4 +1,4 @@
-/* OVERALL */
+/* GLOBAL */
 /* ---------------- */
 html {
   color: white;
@@ -19,6 +19,11 @@ img {
 
 a {
   color: white;
+}
+
+h2 {
+  text-align: center;
+  padding: 1rem;
 }
 
 /* RESET */
@@ -76,25 +81,51 @@ ul {
 /* PROJECTS */
 /* ------------------- */
 #projects {
-  h2 {
-    text-align: center;
-    padding: 1rem;
-  }
 
   #projects__cards {
     margin: 3rem 4rem;
 
-    a {
-      color: blue;
+
+    .projects__just-card {
+      background-color: lightgray;
+      color: black;
+      border-radius: 0 0rem 1rem 1rem;
+
+      img {
+        background-color: white;
+        transition: .3s ease-in-out;
+      }
+
+      img:hover {
+        background-color: blueviolet;
+      }
+
+      .projects__text {
+        padding: 1.4rem 1.4rem 3rem;
+
+        h3 {
+          text-align: center;
+          margin-bottom: .8rem;
+        }
+
+        p {
+          margin-bottom: .8rem;
+        }
+
+        a {
+          color: purple;
+        }
+
+        .projects__text--links {
+          text-align: center;
+
+        }
+
+      }
+
     }
 
-    img {
-      background-color: white;
-    }
+
   }
 
-  .projects__just-card {
-    background-color: lightgray;
-    color: black;
-  }
 }
