@@ -74,7 +74,6 @@ function renderProjects() {
         </ul>
       </div>
     </div>`
-    console.log(project)
     html += htmlSegment
   })
   const container = document.querySelector('#projects__cards')

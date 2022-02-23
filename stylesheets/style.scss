@@ -27,12 +27,12 @@ img {
 }
 
 a {
-  color: $lightwhite;
+  color: $lightpink;
 }
 
 h2 {
   text-align: center;
-  padding: 1rem;
+  margin: 1rem;
 }
 
 /* RESET */
@@ -79,6 +79,7 @@ ul {
 
     ul li a {
       padding-inline: 1rem;
+      color: $lightwhite;
     }
 
   }
@@ -121,10 +122,6 @@ ul {
           margin-bottom: .8rem;
         }
 
-        a {
-          color: $lightpink;
-        }
-
         .projects__text--links {
           text-align: center;
 
@@ -136,5 +133,26 @@ ul {
     }
 
   }
+
+}
+
+#contact {
+
+  .contact__links {
+    margin: 1rem;
+    font-size: large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul li {
+      display: block;
+      margin-bottom: 1rem;
+
+    }
+
+  }
+
 
 }

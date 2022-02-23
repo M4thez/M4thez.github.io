@@ -20,12 +20,12 @@ img {
 }
 
 a {
-  color: #F4F4F4;
+  color: #FF5D73;
 }
 
 h2 {
   text-align: center;
-  padding: 1rem;
+  margin: 1rem;
 }
 
 /* RESET */
@@ -70,6 +70,7 @@ ul li a {
 }
 #entry .entry__nav ul li a {
   padding-inline: 1rem;
+  color: #F4F4F4;
 }
 #entry .entry__welcome {
   margin-inline: 4rem;
@@ -101,14 +102,23 @@ ul li a {
 #projects #projects__cards .projects__just-card .projects__text p {
   margin-bottom: 0.8rem;
 }
-#projects #projects__cards .projects__just-card .projects__text a {
-  color: #FF5D73;
-}
 #projects #projects__cards .projects__just-card .projects__text .projects__text--links {
   text-align: center;
 }
 #projects #projects__cards .projects__just-card .projects__text .projects__text--links a {
   padding-inline: 1rem;
+}
+
+#contact .contact__links {
+  margin: 1rem;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact .contact__links ul li {
+  display: block;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
