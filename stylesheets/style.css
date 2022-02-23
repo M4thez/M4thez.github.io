@@ -1,8 +1,10 @@
+/* VARIABLES */
+/* ---------------- */
 /* GLOBAL */
 /* ---------------- */
 html {
-  color: white;
-  background-color: black;
+  color: #F4F4F4;
+  background-color: #000000;
   font-family: "Segoe UI", sans-serif;
   scroll-behavior: smooth;
 }
@@ -18,7 +20,7 @@ img {
 }
 
 a {
-  color: white;
+  color: #F4F4F4;
 }
 
 h2 {
@@ -57,21 +59,20 @@ ul li a {
   align-items: center;
   min-height: 100vh;
 }
-
-.entry__nav {
-  background-color: blueviolet;
+#entry .entry__nav {
+  background-color: #7F2CCB;
+  border-bottom: 2px solid rgba(26, 24, 27, 0.6);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 1rem;
 }
-.entry__nav ul li a {
+#entry .entry__nav ul li a {
   padding-inline: 1rem;
 }
-
-.entry__welcome {
-  text-align: justify;
+#entry .entry__welcome {
+  margin-inline: 4rem;
 }
 
 /* PROJECTS */
@@ -80,16 +81,15 @@ ul li a {
   margin: 3rem 4rem;
 }
 #projects #projects__cards .projects__just-card {
-  background-color: lightgray;
-  color: black;
-  border-radius: 0 0rem 1rem 1rem;
+  background-color: #1A181B;
+  border-radius: 0 0 1rem 1rem;
 }
 #projects #projects__cards .projects__just-card img {
-  background-color: white;
+  background-color: #F4F4F4;
   transition: 0.3s ease-in-out;
 }
 #projects #projects__cards .projects__just-card img:hover {
-  background-color: blueviolet;
+  background-color: #FF5D73;
 }
 #projects #projects__cards .projects__just-card .projects__text {
   padding: 1.4rem 1.4rem 3rem;
@@ -102,10 +102,13 @@ ul li a {
   margin-bottom: 0.8rem;
 }
 #projects #projects__cards .projects__just-card .projects__text a {
-  color: purple;
+  color: #FF5D73;
 }
 #projects #projects__cards .projects__just-card .projects__text .projects__text--links {
   text-align: center;
+}
+#projects #projects__cards .projects__just-card .projects__text .projects__text--links a {
+  padding-inline: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

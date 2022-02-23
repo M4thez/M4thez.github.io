@@ -1,8 +1,17 @@
+/* VARIABLES */
+/* ---------------- */
+$lightwhite: #F4F4F4;
+$violet: #7F2CCB;
+$lightpink: #FF5D73;
+$lightblack: #1A181B;
+$black: #000000;
+$white: #FFFFFF;
+
 /* GLOBAL */
 /* ---------------- */
 html {
-  color: white;
-  background-color: black;
+  color: $lightwhite;
+  background-color: $black;
   font-family: "Segoe UI", sans-serif;
   scroll-behavior: smooth;
 }
@@ -18,7 +27,7 @@ img {
 }
 
 a {
-  color: white;
+  color: $lightwhite;
 }
 
 h2 {
@@ -58,24 +67,25 @@ ul {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
 
-.entry__nav {
-  background-color: blueviolet;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 1rem;
+  .entry__nav {
+    background-color: $violet;
+    border-bottom: 2px solid rgba($lightblack, .6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
 
-  ul li a {
-    padding-inline: 1rem;
+    ul li a {
+      padding-inline: 1rem;
+    }
+
   }
 
-}
-
-.entry__welcome {
-  text-align: justify;
+  .entry__welcome {
+    margin-inline: 4rem;
+  }
 }
 
 /* PROJECTS */
@@ -87,17 +97,16 @@ ul {
 
 
     .projects__just-card {
-      background-color: lightgray;
-      color: black;
-      border-radius: 0 0rem 1rem 1rem;
+      background-color: $lightblack;
+      border-radius: 0 0 1rem 1rem;
 
       img {
-        background-color: white;
+        background-color: $lightwhite;
         transition: .3s ease-in-out;
       }
 
       img:hover {
-        background-color: blueviolet;
+        background-color: $lightpink;
       }
 
       .projects__text {
@@ -113,18 +122,18 @@ ul {
         }
 
         a {
-          color: purple;
+          color: $lightpink;
         }
 
         .projects__text--links {
           text-align: center;
 
+          a {
+            padding-inline: 1rem;
+          }
         }
-
       }
-
     }
-
 
   }
 
