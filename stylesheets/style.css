@@ -21,6 +21,12 @@ img {
 
 a {
   color: #FF5D73;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #FFD6DA;
 }
 
 h2 {
@@ -47,9 +53,6 @@ ul {
 ul li {
   display: inline;
 }
-ul li a {
-  text-decoration: none;
-}
 
 /* ENTRY */
 /* ------------------- */
@@ -59,21 +62,25 @@ ul li a {
   align-items: center;
   min-height: 100vh;
 }
-#entry .entry__nav {
-  background-color: #7F2CCB;
-  border-bottom: 2px solid rgba(26, 24, 27, 0.6);
+#entry .entry__welcome {
+  margin-inline: 4rem;
+}
+
+.entry__nav {
+  background-color: #247BA0;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 0.9rem;
 }
-#entry .entry__nav ul li a {
+.entry__nav ul li a {
   padding-inline: 1rem;
   color: #F4F4F4;
 }
-#entry .entry__welcome {
-  margin-inline: 4rem;
+.entry__nav ul li a:hover {
+  color: #FF5D73;
+  text-shadow: 4px 4px 6px #1A181B;
 }
 
 /* PROJECTS */
@@ -109,6 +116,8 @@ ul li a {
   padding-inline: 1rem;
 }
 
+/* CONTACT */
+/* ------------------- */
 #contact .contact__links {
   margin: 1rem;
   font-size: large;

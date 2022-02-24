@@ -1,8 +1,9 @@
 /* VARIABLES */
 /* ---------------- */
 $lightwhite: #F4F4F4;
-$violet: #7F2CCB;
+$lightblue: #247BA0;
 $lightpink: #FF5D73;
+$lighterpink: #FFD6DA;
 $lightblack: #1A181B;
 $black: #000000;
 $white: #FFFFFF;
@@ -28,6 +29,12 @@ img {
 
 a {
   color: $lightpink;
+  text-decoration: none;
+  transition: .2s;
+}
+
+a:hover {
+  color: $lighterpink;
 }
 
 h2 {
@@ -53,10 +60,6 @@ ul {
 
   li {
     display: inline;
-
-    a {
-      text-decoration: none;
-    }
   }
 }
 
@@ -68,24 +71,29 @@ ul {
   align-items: center;
   min-height: 100vh;
 
-  .entry__nav {
-    background-color: $violet;
-    border-bottom: 2px solid rgba($lightblack, .6);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem;
+  .entry__welcome {
+    margin-inline: 4rem;
+  }
+}
 
-    ul li a {
+.entry__nav {
+  background-color: $lightblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: .9rem;
+
+  ul li {
+    a {
       padding-inline: 1rem;
       color: $lightwhite;
     }
 
-  }
-
-  .entry__welcome {
-    margin-inline: 4rem;
+    a:hover {
+      color: $lightpink;
+      text-shadow: 4px 4px 6px $lightblack;
+    }
   }
 }
 
@@ -136,6 +144,8 @@ ul {
 
 }
 
+/* CONTACT */
+/* ------------------- */
 #contact {
 
   .contact__links {
@@ -153,6 +163,5 @@ ul {
     }
 
   }
-
 
 }
