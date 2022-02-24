@@ -67,12 +67,16 @@ ul li {
 }
 
 .entry__nav {
-  background-color: #247BA0;
+  font-size: 18px;
+  background-color: #00313D;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.9rem;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .entry__nav ul li a {
   padding-inline: 1rem;
