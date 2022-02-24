@@ -1,11 +1,31 @@
 /* VARIABLES */
 /* ---------------- */
+/* RESET */
+/* ---------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline;
+}
+
 /* GLOBAL */
 /* ---------------- */
 html {
   color: #F4F4F4;
   background-color: #000000;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -29,29 +49,22 @@ a:hover {
   color: #FFD6DA;
 }
 
+h1 {
+  font-size: 46px;
+}
+
 h2 {
+  font-size: 32px;
   text-align: center;
-  margin: 1rem;
+  margin: 2rem;
 }
 
-/* RESET */
-/* ---------------- */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+h3 {
+  font-size: 22px;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-}
-ul li {
-  display: inline;
+p {
+  font-size: 18px;
 }
 
 /* ENTRY */
@@ -81,6 +94,7 @@ ul li {
 .entry__nav ul li a {
   padding-inline: 1rem;
   color: #F4F4F4;
+  font-weight: 500;
 }
 .entry__nav ul li a:hover {
   color: #FF5D73;
@@ -90,7 +104,7 @@ ul li {
 /* PROJECTS */
 /* ------------------- */
 #projects #projects__cards {
-  margin: 3rem 4rem;
+  margin: 3rem;
 }
 #projects #projects__cards .projects__just-card {
   background-color: #1A181B;
@@ -104,19 +118,19 @@ ul li {
   background-color: #FF5D73;
 }
 #projects #projects__cards .projects__just-card .projects__text {
-  padding: 1.4rem 1.4rem 3rem;
+  padding: 1.4rem 1.4rem 2rem;
 }
 #projects #projects__cards .projects__just-card .projects__text h3 {
-  text-align: center;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.4rem;
 }
 #projects #projects__cards .projects__just-card .projects__text p {
-  margin-bottom: 0.8rem;
+  margin-bottom: 2rem;
 }
 #projects #projects__cards .projects__just-card .projects__text .projects__text--links {
   text-align: center;
 }
 #projects #projects__cards .projects__just-card .projects__text .projects__text--links a {
+  font-size: 18px;
   padding-inline: 1rem;
 }
 
@@ -124,7 +138,7 @@ ul li {
 /* ------------------- */
 #contact .contact__links {
   margin: 1rem;
-  font-size: large;
+  font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;

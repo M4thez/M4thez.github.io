@@ -8,12 +8,33 @@ $lightblack: #1A181B;
 $black: #000000;
 $white: #FFFFFF;
 
+/* RESET */
+/* ---------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+
+  li {
+    display: inline;
+  }
+}
+
 /* GLOBAL */
 /* ---------------- */
 html {
   color: $lightwhite;
   background-color: $black;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -37,31 +58,24 @@ a:hover {
   color: $lighterpink;
 }
 
+h1 {
+  font-size: 46px;
+}
+
 h2 {
+  font-size: 32px;
   text-align: center;
-  margin: 1rem;
+  margin: 2rem;
 }
 
-/* RESET */
-/* ---------------- */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+h3 {
+  font-size: 22px
 }
 
-* {
-  padding: 0;
-  margin: 0;
+p {
+  font-size: 18px;
 }
 
-ul {
-  list-style-type: none;
-
-  li {
-    display: inline;
-  }
-}
 
 /* ENTRY */
 /* ------------------- */
@@ -95,6 +109,7 @@ ul {
     a {
       padding-inline: 1rem;
       color: $lightwhite;
+      font-weight: 500;
     }
 
     a:hover {
@@ -109,8 +124,7 @@ ul {
 #projects {
 
   #projects__cards {
-    margin: 3rem 4rem;
-
+    margin: 3rem;
 
     .projects__just-card {
       background-color: $lightblack;
@@ -126,21 +140,22 @@ ul {
       }
 
       .projects__text {
-        padding: 1.4rem 1.4rem 3rem;
+
+        padding: 1.4rem 1.4rem 2rem;
 
         h3 {
-          text-align: center;
-          margin-bottom: .8rem;
+          margin-bottom: 1.4rem;
         }
 
         p {
-          margin-bottom: .8rem;
+          margin-bottom: 2rem;
         }
 
         .projects__text--links {
           text-align: center;
 
           a {
+            font-size: 18px;
             padding-inline: 1rem;
           }
         }
@@ -157,7 +172,7 @@ ul {
 
   .contact__links {
     margin: 1rem;
-    font-size: large;
+    font-size: 22px;
 
     display: flex;
     justify-content: center;
@@ -166,7 +181,6 @@ ul {
     ul li {
       display: block;
       margin-bottom: 1rem;
-
     }
 
   }
