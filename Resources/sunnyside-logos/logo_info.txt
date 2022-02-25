@@ -1,7 +1,0 @@
-
-            Fonts used: Quicksand-Bold,Montserrat-Regular 
-
-            Colors used: E2E2E2,171717  
-
-            Icon url: https://thenounproject.com/term/orange/99003  
-        

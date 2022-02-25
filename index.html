@@ -2,48 +2,60 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MB Portfolio</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-    <link rel="stylesheet" href="maintheme.css">
-    <script src="https://kit.fontawesome.com/5de878b2a7.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MB Portfolio</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <!-- Font awesome icons -->
+  <script src="https://kit.fontawesome.com/5de878b2a7.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section class="entry">
-        <img class="entry-name" src=".\Resources\mb-logos\mb-logos_white-cropped.png">
-        <div class="entry-links">
-            <a href="https://github.com/M4thez"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/mateusz-boboryko"><i class="fab fa-linkedin"></i></a>
-            <a href="https://gitlab.com/M4thez"><i class="fab fa-gitlab"></i></a>
-        </div>
-    </section>
+  <div id="entry">
+    <nav class="entry__nav">
+      <div>
+        <ul>
+          <li><a href="#entry">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="entry__welcome">
+      <h1>
+        Hi!<br>
+        My name is Mateusz Boboryko<br>
+        I'm a front-end web developer based in Poland
+      </h1>
+    </div>
+  </div>
+  <div id="projects">
+    <h2>Front-end projects</h2>
+    <div id="projects__cards" class="grid">
+      <!-- Content injected via JS file -->
+    </div>
+  </div>
+  <div id="contact">
+    <h2>Contact me</h2>
+    <div class="contact__links">
+      <ul>
+        <li><i class="fa-brands fa-linkedin-in"></i> LinkedIn | <a
+            href="https://linkedin.com/in/mateusz-boboryko">linkedin.com/in/mateusz-boboryko</a></li>
+        <li><i class="fa-solid fa-envelope"></i> Gmail | <a
+            href="mailto:mateusz.boboryko@gmail.com">mateusz.boboryko@gmail.com</a></li>
+        <li><i class="fab fa-github"></i> GitHub | <a href="https://github.com/M4thez">github.com/M4thez</a></li>
+        <li><i class="fab fa-gitlab"></i> GitLab | <a href="https://gitlab.com/M4thez">gitlab.com/M4thez</a></li>
+      </ul>
+    </div>
+  </div>
 
-    <section>
-        <h1 class="h-center">My projects</h2>
-        <article class="projects-box">
-            <div class="project-item">
-                <img src=".\Resources\sunnyside-logos\sunnyside-logos_transparent-cropped.png" class="project-item-logo">
-                <h3>Sunnyside landing page</h3>
-                <p>Responsive landing page project exercise</p>
-                <div class="link-buttons">
-                    <a href="https://m4thez.github.io/sunnyside-landing-page/" target="_blank" class="link-button">Live Site</a>
-                    <a href="https://github.com/M4thez/sunnyside-landing-page" target="_blank" class="link-button">Repository</a>
-                </div>
-            </div>            
-            <div class="project-item">
-                <img src=".\Resources\js-tabs-logos\js-tabs-logos_transparent-cropped.png" class="project-item-logo">
-                <h3>JS Tabs</h3>
-                <p>Simple single page application with JS exercises</p>
-                <div class="link-buttons">
-                    <a href="https://m4thez.github.io/js-tabs/" target="_blank" class="link-button">Live Site</a>
-                    <a href="https://github.com/M4thez/js-tabs" target="_blank" class="link-button">Repository</a>
-                </div>            
-            </div>
-        </article>
-    </section>
 
+  <script src="index.js"></script>
 </body>
 
 </html>
