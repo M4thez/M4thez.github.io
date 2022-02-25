@@ -59,7 +59,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 46px;
+  font-size: 42px;
 }
 
 h2 {
@@ -185,4 +185,75 @@ p {
 
   }
 
+}
+
+/* MEDIA QUERIES */
+/* ------------------- */
+
+// Mobile devices
+@media only screen and (max-width: 576px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 20px
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  #projects #projects__cards {
+    margin: 1.2rem;
+  }
+
+  #contact .contact__links {
+    font-size: 18px;
+  }
+}
+
+// Tablets
+@media only screen and (min-width: 576px) and (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  #projects #projects__cards {
+    margin: 2rem;
+
+    .projects__just-card .projects__text .projects__text--links a {
+      font-size: 16px;
+    }
+  }
+
+  #contact .contact__links {
+    font-size: 18px;
+  }
 }

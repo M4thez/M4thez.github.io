@@ -70,7 +70,7 @@ function renderProjects() {
         <p>${project.description}</p>
         <ul class="projects__text--links">
           <li><a href="${project.links.repo}">Repository</a></li>
-          <li><a href="${project.links.live}">Live site</a></li>
+          <li><a href="${project.links.live}">Live</a></li>
         </ul>
       </div>
     </div>`
