@@ -1,0 +1,21 @@
+.welcome-section {
+  font-size: large;
+  min-height: 100vh;
+  text-align: start;
+}
+
+.welcome-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-name {
+  font-size: x-large;
+}
+
+.welcome-info-dump {
+  max-width: 540px;
+}
