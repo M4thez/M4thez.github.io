@@ -1,12 +1,24 @@
 // import { useState } from "react";
 import "./App.css";
-import WelcomeMessage from "./components/WelcomeMessage";
 import "@dotlottie/player-component";
+import WelcomeMessage from "./components/WelcomeMessage";
+import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
       <WelcomeMessage />
+      <hr />
+      <AboutMe />
+      <hr />
+      <Experience />
+      <hr />
+      <Projects />
+      <hr />
+      <Contact />
       {/* Attribution */}
       {/* <a href="https://lordicon.com/">Animated icons by Lordicon.com</a> */}
     </>

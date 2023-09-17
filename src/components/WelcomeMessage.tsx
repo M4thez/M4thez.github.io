@@ -2,7 +2,7 @@ import "./WelcomeMessage.css";
 import avatarManJson from "../assets/wired-flat-268-avatar-man.json";
 import("@dotlottie/player-component");
 
-function WelcomeMessage() {
+export default function WelcomeMessage() {
   return (
     <section className="welcome-section">
       <div className="welcome-container">
@@ -14,7 +14,7 @@ function WelcomeMessage() {
           speed={0.7}
         />
         <div className="welcome-info-dump">
-          <p>Hi, my name is</p>
+          <h1 id="welcome-heading">Hi, my name is</h1>
           <b className="welcome-name">Mateusz Boboryko</b>
           <p>
             I'm a recent Computer Science graduate that specializes in front-end
@@ -28,5 +28,3 @@ function WelcomeMessage() {
     </section>
   );
 }
-
-export default WelcomeMessage;

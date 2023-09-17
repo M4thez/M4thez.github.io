@@ -19,3 +19,8 @@
 .welcome-info-dump {
   max-width: 540px;
 }
+
+#welcome-heading {
+  font-size: 1em;
+  font-weight: normal;
+}
