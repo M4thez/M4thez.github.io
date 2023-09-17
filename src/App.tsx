@@ -12,15 +12,17 @@ function App() {
   return (
     <>
       <Navbar />
-      <WelcomeMessage />
-      <hr />
-      <AboutMe />
-      <hr />
-      <Experience />
-      <hr />
-      <Projects />
-      <hr />
-      <Contact />
+      <main>
+        <WelcomeMessage />
+        <hr />
+        <AboutMe />
+        <hr />
+        <Experience />
+        <hr />
+        <Projects />
+        <hr />
+        <Contact />
+      </main>
       {/* Attribution */}
       {/* <a href="https://lordicon.com/">Animated icons by Lordicon.com</a> */}
     </>

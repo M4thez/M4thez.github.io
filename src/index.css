@@ -1,5 +1,6 @@
 :root {
   /* Color variables */
+  --purple: #646cff;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -26,11 +27,15 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--purple);
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
+}
+
+hr {
+  border: 1px solid var(--purple);
 }
 
 body {
@@ -50,7 +55,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--purple);
 }
 button:focus,
 button:focus-visible {
