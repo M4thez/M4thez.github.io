@@ -4,7 +4,7 @@ import("@dotlottie/player-component");
 
 export default function WelcomeMessage() {
   return (
-    <section className="welcome-section">
+    <section id="welcome">
       <div className="welcome-container">
         <dotlottie-player
           src={JSON.stringify(avatarManJson)}

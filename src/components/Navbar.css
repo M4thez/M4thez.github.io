@@ -1,0 +1,21 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  background-color: rgba(95, 95, 95, 0.2);
+  z-index: 10;
+
+  > ul {
+    display: flex;
+    gap: 1em;
+    padding: 0 1em;
+    justify-content: space-between;
+
+    .links-group {
+      display: flex;
+      gap: 1em;
+      > li {
+        list-style-type: none;
+      }
+    }
+  }
+}
