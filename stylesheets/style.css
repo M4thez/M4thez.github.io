@@ -152,6 +152,12 @@ p {
   margin-bottom: 1rem;
 }
 
+#addendum {
+  text-align: center;
+  margin-block-end: 2rem;
+  padding: 1rem;
+}
+
 /* MEDIA QUERIES */
 /* ------------------- */
 @media only screen and (max-width: 576px) {
@@ -174,8 +180,14 @@ p {
   #projects #projects__cards {
     margin: 1.2rem;
   }
+  #contact {
+    padding: 1rem 0;
+  }
   #contact .contact__links {
     font-size: 18px;
+  }
+  #addendum {
+    margin-block-end: 1rem;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 800px) {
@@ -204,11 +216,6 @@ p {
   #contact .contact__links {
     font-size: 18px;
   }
-}
-#addendum {
-  font-size: 10px;
-  text-align: center;
-  margin-block-end: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

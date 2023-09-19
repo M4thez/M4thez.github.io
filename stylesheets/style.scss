@@ -191,6 +191,12 @@ p {
 
 }
 
+#addendum {
+  text-align: center;
+  margin-block-end: 2rem;
+  padding: 1rem;
+}
+
 /* MEDIA QUERIES */
 /* ------------------- */
 
@@ -221,8 +227,16 @@ p {
     margin: 1.2rem;
   }
 
-  #contact .contact__links {
-    font-size: 18px;
+  #contact {
+    padding: 1rem 0;
+
+    .contact__links {
+      font-size: 18px;
+    }
+  }
+
+  #addendum {
+    margin-block-end: 1rem;
   }
 }
 
@@ -260,10 +274,4 @@ p {
   #contact .contact__links {
     font-size: 18px;
   }
-}
-
-#addendum {
-  font-size: 10px;
-  text-align: center;
-  margin-block-end: 3rem;
 }
