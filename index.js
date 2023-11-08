@@ -1,5 +1,15 @@
 const projects = [
   {
+    "title": "Cosmic",
+    "description": "Educational interactive web application related to outer space. My biggest personal project. Features include: Solar System simulation, interaction and inspection of 3D models, dynamically displayed data from NASA APIs, user accounts, and quizzes.<br><br>Front-end is made in React and Three.js, back-end in Firebase.",
+    "image_path": "resources/cosmic-logos/cosmic.png",
+    "links":
+    {
+      "repo": "https://github.com/M4thez/cosmic-repo",
+      "live": "https://m4thez.github.io/cosmic-repo/"
+    }
+  },
+  {
     "title": "Landing page project",
     "description": "Responsive landing page project for a fictional company based on a challenge by <a href='https://frontendmentor.io'>frontendmentor.io</a>.<br><br>The site is responsive for all commonly used screen sizes and also includes custom hover states for interactive elements.",
     "image_path": "resources/sunnyside-logos/sunnyside_black.png",
