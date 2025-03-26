@@ -6,7 +6,7 @@ export default function Navbar() {
       <ul>
         <div className="links-group">
           <li>
-            <a href="#welcome">Logo</a>
+            <a href="#welcome">M4thez</a>
           </li>
         </div>
         <div className="links-group">

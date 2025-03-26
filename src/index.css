@@ -1,6 +1,7 @@
 :root {
   /* Color variables */
   --purple: #646cff;
+  --button-bg: aliceblue;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
