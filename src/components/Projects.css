@@ -1,0 +1,13 @@
+#projects {
+  > h2 {
+    text-align: center;
+    margin: 1em 0 0.5em;
+  }
+  /* padding: 4em; */
+}
+#projects-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}

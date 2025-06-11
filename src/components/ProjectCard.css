@@ -1,0 +1,83 @@
+.project-card {
+  max-width: 100%;
+  margin: 0.5em 0;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+}
+
+.project-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+}
+
+.project-card.reversed .project-content {
+  flex-direction: row-reverse;
+}
+
+.project-img-grid {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.big-img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px 0 0 0;
+}
+
+.reversed .big-img {
+  border-radius: 0 16px 0 0;
+}
+.small-imgs {
+  display: flex;
+}
+
+.small-imgs img {
+  &:first-child {
+    border-radius: 0 0 0 16px;
+  }
+  flex: 1;
+  height: 150px;
+  object-fit: cover;
+}
+.reversed .small-imgs img {
+  &:last-child {
+    border-radius: 0 0 16px 0;
+  }
+  &:first-child {
+    border-radius: 0;
+  }
+}
+
+.project-text {
+  margin: 1em;
+}
+
+.project-text h3 {
+  margin: 0 0 0.5em;
+  font-size: 1.5em;
+}
+
+.project-text p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 0;
+  list-style-type: none;
+  font-size: larger;
+  > li {
+    background-color: var(--button-bg);
+    border-radius: 0.4em;
+    padding: 0.2em 0.5em;
+  }
+}
