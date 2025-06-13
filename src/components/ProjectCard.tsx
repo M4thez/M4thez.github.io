@@ -21,13 +21,11 @@ export default function ProjectCard({
   return (
     <div className={`project-card ${isReversed ? "reversed" : ""}`}>
       <div className="project-content">
-        <div className="project-imgs-container">
-          <img className="big-img" src={images[0]} alt="Main project image" />
-          <div className="small-imgs">
-            {images.slice(1, 4).map((src: string, idx: number) => (
-              <img key={idx} src={src} alt={`Small project image ${idx}`} />
-            ))}
-          </div>
+        <div className="project-imgs-grid">
+          <img src={images[0]} alt="Main project image" />
+          {images.slice(1, 4).map((src: string, idx: number) => (
+            <img key={idx} src={src} alt={`Small project image ${idx}`} />
+          ))}
         </div>
         <div className="project-text">
           <h3>{title}</h3>
