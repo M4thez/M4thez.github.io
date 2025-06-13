@@ -10,10 +10,10 @@ export default function Projects() {
           title="Cosmic - Bachelor's degree project"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus natus unde voluptatibus, id quaerat error minus ab suscipit provident molestias, ratione deserunt nostrum at hic placeat qui dicta earum?"
           images={[
-            "src/assets/nathan-jennings-cosmos.jpg", // Big Image
-            "src/assets/nathan-jennings-cosmos.jpg",
-            "src/assets/nathan-jennings-cosmos.jpg",
-            "src/assets/nathan-jennings-cosmos.jpg",
+            "src/assets/cosmic/Mars.png",
+            "src/assets/cosmic/RoverPhotos.png",
+            "src/assets/cosmic/Rover3DWide.png",
+            "src/assets/cosmic/Earth.png",
           ]}
           isReversed={false}
           links={{
@@ -32,8 +32,7 @@ export default function Projects() {
           ]}
           isReversed={true}
           links={{
-            github: "",
-            live: "",
+            github: "https://github.com/M4thez/MastersProject",
           }}
         />
       </div>

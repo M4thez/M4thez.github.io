@@ -18,10 +18,17 @@
   flex-direction: row-reverse;
 }
 
-.project-img-grid {
+.project-imgs-container {
   display: flex;
   flex-direction: column;
   flex: 1;
+  img {
+    filter: brightness(0.9);
+    transition: filter 0.3s ease;
+    &:hover {
+      filter: brightness(1.1) contrast(1.05) saturate(1.05);
+    }
+  }
 }
 
 .big-img {
