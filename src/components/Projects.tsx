@@ -13,10 +13,10 @@ export default function Projects() {
           title="Cosmic - Bachelor's degree project"
           description={cosmicDesc}
           images={[
-            "src/assets/cosmic/Mars.webp",
-            "src/assets/cosmic/RoverPhotos.webp",
-            "src/assets/cosmic/Rover3DWide.webp",
-            "src/assets/cosmic/Earth.webp",
+            "./assets/cosmic/Mars.webp",
+            "./assets/cosmic/RoverPhotos.webp",
+            "./assets/cosmic/Rover3DWide.webp",
+            "./assets/cosmic/Earth.webp",
           ]}
           isReversed={false}
           links={{

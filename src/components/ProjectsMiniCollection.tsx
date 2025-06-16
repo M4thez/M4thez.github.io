@@ -1,5 +1,5 @@
 import "./ProjectsMiniCollection.css";
-import projectsData from "../assets/projectsData.json";
+import projectsData from "../resources/projectsData.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";

@@ -1,5 +1,5 @@
 import "./WelcomeMessage.css";
-import avatarManJson from "../assets/wired-flat-268-avatar-man.json";
+import avatarManJson from "../resources/wired-flat-268-avatar-man.json";
 import("@dotlottie/player-component");
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
