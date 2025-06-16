@@ -2,8 +2,6 @@
 import "./App.css";
 import "@dotlottie/player-component";
 import WelcomeMessage from "./components/WelcomeMessage";
-import AboutMe from "./components/AboutMe";
-import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -19,8 +17,6 @@ function App() {
         <hr />
         <Contact />
       </main>
-      {/* Attribution */}
-      {/* <a href="https://lordicon.com/">Animated icons by Lordicon.com</a> */}
     </>
   );
 }
