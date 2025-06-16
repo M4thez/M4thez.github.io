@@ -15,10 +15,6 @@ function App() {
       <main>
         <WelcomeMessage />
         <hr />
-        <AboutMe />
-        <hr />
-        <Experience />
-        <hr />
         <Projects />
         <hr />
         <Contact />

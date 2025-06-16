@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Landing page project",
+        "description": "Responsive landing page project for a fictional company based on a challenge by <a href='https://frontendmentor.io'>frontendmentor.io</a>.<br><br>The site is responsive for all commonly used screen sizes and also includes custom hover states for interactive elements.",
+        "image_path": "/src/assets/sunnyside.webp",
+        "links": {
+            "repo": "https://github.com/M4thez/sunnyside-landing-page",
+            "live": "https://m4thez.github.io/sunnyside-landing-page"
+        }
+    },
+    {
+        "title": "Nasa model viewer",
+        "description": "Website with 3D models sourced from the official NASA repository.<br><br>It's a proof of concept that was later developed into the <i>Cosmic</i> project. It focused on sharing 3D models on the web using my own solution. The viewer was made in Three.js and it was bundled with Vite.",
+        "image_path": "/src/assets/nasa-model-viewer.webp",
+        "links": {
+            "repo": "https://github.com/M4thez/nasa-website",
+            "live": "https://m4thez.github.io/nasa-website"
+        }
+    },
+    {
+        "title": "JS Tabs",
+        "description": "My first Single Page Application made as a University exercise.<br><br>It consists of some interactive tools that gave me training in basic JavaScript coding.",
+        "image_path": "/src/assets/js-tabs-small.webp",
+        "links": {
+            "repo": "https://github.com/M4thez/js-tabs",
+            "live": "https://m4thez.github.io/js-tabs"
+        }
+    },
+    {
+        "title": "Launch countdown timer",
+        "description": "Countdown timer project based on a challenge by <a href='https://frontendmentor.io'>frontendmentor.io</a>.<br><br>The project is displaying a fully animated live countdown timer that ticks down every second to a specific time.",
+        "image_path": "/src/assets/launch-countdown.webp",
+        "links": {
+            "repo": "https://github.com/M4thez/launch-countdown-timer",
+            "live": "https://m4thez.github.io/launch-countdown-timer"
+        }
+    }
+]

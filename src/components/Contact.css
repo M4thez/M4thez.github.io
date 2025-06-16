@@ -1,0 +1,23 @@
+#contact {
+  font-size: 22px;
+  h2,
+  p {
+    text-align: center;
+  }
+
+  p {
+    margin: 2px;
+  }
+
+  .contact__links {
+    margin: 0.5em;
+
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    ul {
+      list-style-type: none;
+    }
+  }
+}

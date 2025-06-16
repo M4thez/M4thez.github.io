@@ -1,5 +1,6 @@
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
+import ProjectsMiniCollection from "./ProjectsMiniCollection";
 
 export default function Projects() {
   const cosmicDesc =
@@ -12,10 +13,10 @@ export default function Projects() {
           title="Cosmic - Bachelor's degree project"
           description={cosmicDesc}
           images={[
-            "src/assets/cosmic/Mars.png",
-            "src/assets/cosmic/RoverPhotos.png",
-            "src/assets/cosmic/Rover3DWide.png",
-            "src/assets/cosmic/Earth.png",
+            "src/assets/cosmic/Mars.webp",
+            "src/assets/cosmic/RoverPhotos.webp",
+            "src/assets/cosmic/Rover3DWide.webp",
+            "src/assets/cosmic/Earth.webp",
           ]}
           isReversed={false}
           links={{
@@ -23,7 +24,7 @@ export default function Projects() {
             live: "https://m4thez.github.io/cosmic-repo/",
           }}
         />
-        <ProjectCard
+        {/* <ProjectCard
           title="EUNICoast Search Engine"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus natus unde voluptatibus, id quaerat error minus ab suscipit provident molestias, ratione deserunt nostrum at hic placeat qui dicta earum?"
           images={[
@@ -36,8 +37,9 @@ export default function Projects() {
           links={{
             github: "https://github.com/M4thez/MastersProject",
           }}
-        />
+        /> */}
       </div>
+      <ProjectsMiniCollection />
     </section>
   );
 }
