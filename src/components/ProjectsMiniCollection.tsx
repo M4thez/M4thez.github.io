@@ -8,7 +8,7 @@ export default function ProjectsMiniCollection() {
   console.log(projectsData);
   const projectsCollection = projectsData.map((project) => (
     <div className="mini-project project-card" key={project.title}>
-      <a href={project.links.live}>
+      <a href={project.links.live} target="_blank">
         <img src={project.image_path} alt={project.title} />
       </a>
       <div className="mini-project-text">
@@ -18,7 +18,7 @@ export default function ProjectsMiniCollection() {
         <ul className="project-links">
           {Object.entries(project.links).map(([key, url]) => (
             <li key={key}>
-              <a href={url} target="_blank" rel="noopener noreferrer">
+              <a href={url} target="_blank">
                 <FontAwesomeIcon icon={key === "repo" ? faGithub : faPlay} />
               </a>
             </li>

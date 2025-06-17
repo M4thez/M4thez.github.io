@@ -8,7 +8,7 @@ interface ProjectCardProps {
   description: string;
   images: string[];
   isReversed?: boolean;
-  links?: Record<string, string>; // key: string, value: string (URL)
+  links: Record<string, string>; // key: string, value: string (URL)
 }
 
 export default function ProjectCard({
@@ -22,10 +22,18 @@ export default function ProjectCard({
     <div className={`project-card ${isReversed ? "reversed" : ""}`}>
       <div className="project-content">
         <div className="project-imgs-grid">
-          <img src={images[0]} alt="Main project image" />
+          <a href={links.live} target="_blank">
+            <img src={images[0]} alt="Main project image" />
+          </a>
           {images.slice(1, 4).map((src: string, idx: number) => (
-            <img key={idx} src={src} alt={`Small project image ${idx}`} />
+            <a href={links.live} target="_blank">
+              <img key={idx} src={src} alt={`Small project image ${idx}`} />
+            </a>
           ))}
+
+          {/*       <a href={project.links.live} target="_blank">
+        <img src={project.image_path} alt={project.title} />
+      </a> */}
         </div>
         <div className="project-text">
           <h3>{title}</h3>
@@ -34,7 +42,7 @@ export default function ProjectCard({
             <ul className="project-links">
               {Object.entries(links).map(([key, url]) => (
                 <li key={key}>
-                  <a href={url} target="_blank" rel="noopener noreferrer">
+                  <a href={url} target="_blank">
                     <FontAwesomeIcon
                       icon={key === "github" ? faGithub : faPlay}
                     />

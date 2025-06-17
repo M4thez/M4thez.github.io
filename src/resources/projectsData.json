@@ -1,5 +1,14 @@
 [
     {
+        "title": "Video games media slider",
+        "description": "Media slider website with screenshots made by me from some of my favorite video games. Design and implementation fully by myself. Made in Next.js (full-stack React framework) and TypeScript. Small project made for the purpose of a recruitment task and showing my passion towards video games.",
+        "image_path": "./assets/media-slider.webp",
+        "links": {
+            "repo": "https://github.com/M4thez/media-slider",
+            "live": "https://m4thez.github.io/media-slider"
+        }
+    },
+    {
         "title": "Landing page project",
         "description": "Responsive landing page project for a fictional company based on a challenge by <a href='https://frontendmentor.io'>frontendmentor.io</a>.<br><br>The site is responsive for all commonly used screen sizes and also includes custom hover states for interactive elements.",
         "image_path": "./assets/sunnyside.webp",
